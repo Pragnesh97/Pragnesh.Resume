@@ -3,13 +3,13 @@ export default {
 		about: {
 			text: [
 				"Hi &#128075;",
-				"I'm Pragnesh Sutariya. Currently, i’m a Software Engineer at SCIKEY, Surat. I'm specialized in building C# Softwares . I have completed my Diploma in Computer Application from Rabindranath Tagore University.",
+				"I'm Kaushik Sutariya. Currently, i’m a Software Engineer at SCIKEY, Surat. I'm specialized in building C# Softwares + Python Scripts. I have completed my Bachelor in Computer Science and Technology from Gujarat Technological University, Gujarat.",
 				"I love to Travel+Code+Music.",
 			],
 		},
 		contact: {
 			text: [
-				"If you would like to get in touch with me, be it for exploring a technology, a business, or to just say hi, feel free to send me an email at PragneshSutariya01@gmail.com",
+				"If you would like to get in touch with me, be it for exploring a technology, a business, or to just say hi, feel free to send me an email at KaushikSutariya01@gmail.com",
 			],
 		},
 	},
@@ -24,13 +24,13 @@ export default {
 			title: "Languages",
 			skillName: "Python",
 			color: "2",
-			percentage: "50",
+			percentage: "75",
 		},
 		{
 			title: "Mobile App Dev Languages",
 			skillName: "Flutter, Dart, Firebase",
 			color: "4",
-			percentage: "40",
+			percentage: "70",
 		},
 		{
 			title: "Database",
@@ -72,11 +72,28 @@ export default {
 			title: "API",
 			skillName: "REST APIs, Documentation",
 			color: "4",
-			percentage: "40",
+			percentage: "80",
 		},
 	],
 	projects: {
-	
+		web: [
+			{
+				projectName: "ERP Student",
+				image: "images/pERP.png",
+				summary:
+					"Developed a full stack ERP application to provide management of student's data with admin interface.",
+				preview: "https://github.com/KaushikSutariya/ERP-Student",
+				techStack: ["JavaScript","CSS","PHP","MySQL"],
+			},
+			{
+				projectName: "Feedback Form",
+				image: "images/pERP.png",
+				summary:
+					"Developed a .Net application to render a list of faculty member fetched from DB. Filtered the Faculties based on department and take feedback from students and generate faculty evaluation report.",
+				preview: "",
+				techStack: [".Net", "SQL Server", "CSS", "JavaScript"],
+			},
+		],
 		software: [
 			{
 				projectName: "Diamond Inventory System",
@@ -88,6 +105,14 @@ export default {
 				techStack: ["c#", "SQL Server",".Net Framework","Infragistics","SAP Crystal Reports"],
 			},
 			{
+				projectName: "Face Recognisation Based Attendance System",
+				image: "images/PFaceRecAttSys.png",
+				summary:
+					"Standalone PC software to mark attendance of multiple employees at a time. There is no need to stand in front of the camera and no physical involvement. Included a website and android app to manage data.	",
+				preview: "",
+				techStack: ["Python", "OpenCV", "TKinter","PAGE","MySQL","XAMPP","NumPy","Pandas","PIL"],
+			},
+			{
 				projectName: "Textile Inventory System",
 				image: "images/pTexInvSys.jpg",
 				summary:
@@ -95,11 +120,88 @@ export default {
 				preview: "",
 				techStack: ["c#", "SQL Server",".Net Framework","Infragistics","SAP Crystal Reports"],
 			},
+			{
+				projectName: "Task Control",
+				image: "images/PTaskControl.jpg",
+				summary:
+					"Software to store and manage work task assign by manager to the employees in a company. It gives reminder of work and make tracking of employee's work.",
+				preview: "",
+				techStack: ["c#", "SQL Server",".Net Framework","Infragistics","SAP Crystal Reports"],
+			},
+			{
+				projectName: "Payroll System",
+				image: "images/pPayRollSys.jpg",
+				summary:
+					"Complete payroll software with support of biometric device. Secure, scalable and maintenance-free. Make your employees smile with timely, accurate paychecks.",
+				preview: "",
+				techStack: ["c#", "SQL Server",".Net Framework","Infragistics","SAP Crystal Reports"],
+			},
+			{
+				projectName: "QR Generator, WhatsApp messages and Email sender",
+				image: "images/pQrGenerator.jpg",
+				summary:
+					"Automatic softwar that runs with computer startups in system tray. It creates QR code of .txt file and send emails or whatsapp messages",
+				preview: "",
+				techStack: ["c#",".Net Framework"],
+			},
+		],
+		android: [
+			{
+				projectName: "BMI-App",
+				image: "images/pBMI.jpg",
+				summary:
+					"The Application generates BMI reports by taking few detais of a person.",
+				preview: "",
+				techStack: ["Flutter","Dart", "Android Studio"],
+			},
+			{
+				projectName: "English Words",
+				image: "images/pEngWords.jpg",
+				summary:
+					"A learning Application that displays a list of english words in two languages: English and Gujarati.",
+				preview: "",
+				techStack: ["Flutter","Dart", "Android Studio","Google Translator"],
+			},
+			{
+				projectName: "WorkFlow",
+				image: "images/pWorkFlow.jpg",
+				summary:
+					"Employee management system application that we ever used to manage our team, It's very easy to use. Its interconnected processes will help you increase efficiency, foster collaboration, and macro-monitor performance. This app is one-stop solution for managing your entire business. This app manages the all task of all the current employees of the company.",
+				preview: "",
+				techStack: ["Flutter","Dart", "Android Studio","REST API","Firebase"],
+			},
+			{
+				projectName: "ETEX",
+				image: "images/pETEX.jpg",
+				summary:
+					"This app manage all bills in Textile Industry, Send WhatsApp messages and emails to the customers.",
+				preview: "",
+				techStack: ["Flutter","Dart", "Android Studio","REST API","Firebase"],
+			},
+		],
+		freelance: [
+			// {
+			// 	projectName: "SnylloAir.com",
+			// 	image: "images/snylloair.png",
+			// 	summary:
+			// 		"Developed a company website to showcase the purpose, services and products provided by the company to audience.",
+			// 	preview: "https://www.snylloair.com/",
+			// 	techStack: ["Bootstrap", "JavaScript", "AWS-S3"],
+			// },
+			// {
+			// 	projectName: "Delivery+",
+			// 	image: "images/AM-Logo-.png",
+			// 	summary:
+			// 		"Android Application to display website in android devices.",
+			// 	preview:
+			// 		"https://play.google.com/store/apps/details?id=com.americanmarket.americanmarketandroid",
+			// 	techStack: ["Android", "JAVA", "Play Store"],
+			// },
 		],
 	},
 	experience: [
 		{
-			title: "Freelancer",
+			title: "UpWork-Freelancer",
 			duration: "December 2021 - Present",
 			subtitle: "Flutter Developer",
 			details: [
@@ -116,8 +218,8 @@ export default {
 			icon: "group",
 		},
 		{
-			title: "MR Diamond",
-			duration: "June 2023 - Present",
+			title: "Silver Technologies",
+			duration: "January 2020 - June 2021",
 			subtitle: "Software Engineer",
 			details: [
 				"Worked on Desktop Applications. APIs, SQL Server. The main projects are Diamond Inventory System, Textile Inventory System, Payroll. In which I have developed new, efficient, and well-tested code.",
@@ -128,25 +230,50 @@ export default {
 				"C#",
 				"SQL-Server",
 				"Infragistics",
-				"Dev Express Control",
 				"SAP Crystal Reports",
 				"Github",
 			],
 			icon: "group",
 		},
+		{
+			title: "Bitwise Infotech",
+			duration: "September 2019 - October 2019",
+			subtitle: "Intern",
+			details: [
+				"Worked on web project and Solved various DS queries.",
+				"Integrated QR Code and reduced the effective time by 50 percent.",
+			],
+			tags: ["Python","C/C++", "MySQL", "TkInter", "OpenCV", "NumPy"],
+			icon: "group",
+		},
 	],
 	education: [
 		{
-			title: "Diploma in Computer Application",
+			title: "Bachelors in Computer Engineering",
 			duration: "2017-2021",
-			subtitle: "Rabindranath Tagore University",
-			
+			subtitle: "Gujarat Technological University",
+			details: [
+				"CGPA : 9.07",
+			],
 			tags: [
 				"Data Structures & Algorithms",
 				"Operating Systems",
-				"Database Management System"				
+				"Database Management System",
+				"Python Programming",
+				"Machine Learning",
 			],
 			icon: "graduation-cap",
+		},
+		{
+			title: "Class 11-12th in Science and Mathematics",
+			duration: "2015-2017",
+			subtitle: "Gujarat Secondary and Higher Secondary Education Board",
+			details: [
+				"Qualified JEE Main",
+				"Secured 84% in Class 12th Boards Examinations.",
+			],
+			tags: ["Physics", "Chemistry", "Mathematics"],
+			icon: "book",
 		},
 	],
 	footer: [
@@ -159,7 +286,7 @@ export default {
 				// },
 				{
 					text: "GitHub",
-					link: "https://github.com/Pragnesh97",
+					link: "https://github.com/KaushikSutariya",
 				},
 				// {
 				// 	text: "LeetCode",
@@ -186,22 +313,22 @@ export default {
 			data: [
 				{
 					text: "Linkedin",
-					link: "https://www.google.com/url?q=http://www.linkedin.com/in/pragnesh-sutariya-a835b317b&source=gmail&ust=1717868133051000&usg=AOvVaw0W3L5m1Ydosfqb5q508_oh",
+					link: "https://www.linkedin.com/in/kaushik-sutariya/",
 				},
-				// {
-					// text: "Instagram",
-					// link: "https://www.instagram.com/Pragnesh_sutariya_official/?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D",
-				// },
+				{
+					text: "Instagram",
+					link: "https://www.instagram.com/kaushik_sutariya_official/?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D",
+				},
 				{
 					text: "Buy me a coffee",
-					link: "https://www.buymeacoffee.com/PragneshSutariya",
+					link: "https://www.buymeacoffee.com/KaushikSutariya",
 				},
 			],
 		},
 		{
 			label: "copyright-text",
 			data: [
-				"Made with &hearts; by Pragnesh Sutariya.",
+				"Made with &hearts; by Kaushik Sutariya.",
 				"&copy; No Copyrights. Feel free to use this template."
 			],
 		},
