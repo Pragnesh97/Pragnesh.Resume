@@ -76,24 +76,7 @@ export default {
 		},
 	],
 	projects: {
-		web: [
-			{
-				projectName: "ERP Student",
-				image: "images/pERP.png",
-				summary:
-					"Developed a full stack ERP application to provide management of student's data with admin interface.",
-				preview: "https://github.com/PragneshSutariya/ERP-Student",
-				techStack: ["JavaScript","CSS","PHP","MySQL"],
-			},
-			{
-				projectName: "Feedback Form",
-				image: "images/pERP.png",
-				summary:
-					"Developed a .Net application to render a list of faculty member fetched from DB. Filtered the Faculties based on department and take feedback from students and generate faculty evaluation report.",
-				preview: "",
-				techStack: [".Net", "SQL Server", "CSS", "JavaScript"],
-			},
-		],
+	
 		software: [
 			{
 				projectName: "Diamond Inventory System (DiamondMFG)",
