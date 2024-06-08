@@ -96,26 +96,6 @@ export default {
 				techStack: ["c#", "SQL Server",".Net Framework","Infragistics","SAP Crystal Reports"],
 			},
 		],
-		
-		freelance: [
-			{
-				projectname: "snylloair.com",
-				image: "images/snylloair.png",
-				summary:
-					"developed a company website to showcase the purpose, services and products provided by the company to audience.",
-				preview: "https://www.snylloair.com/",
-				techstack: ["bootstrap", "javascript", "aws-s3"],
-			},
-			{
-				projectname: "delivery+",
-				image: "images/am-logo-.png",
-				summary:
-					"android application to display website in android devices.",
-				preview:
-					"https://play.google.com/store/apps/details?id=com.americanmarket.americanmarketandroid",
-				techstack: ["android", "java", "play store"],
-			},
-		],
 	},
 	experience: [
 		{
