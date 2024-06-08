@@ -3,13 +3,13 @@ export default {
 		about: {
 			text: [
 				"Hi &#128075;",
-				"I'm Kaushik Sutariya. Currently, i’m a Software Engineer at SCIKEY, Surat. I'm specialized in building C# Softwares + Python Scripts. I have completed my Bachelor in Computer Science and Technology from Gujarat Technological University, Gujarat.",
+				"I'm Pragnesh Sutariya. Currently, i’m a Software Engineer at SCIKEY, Surat. I'm specialized in building C# Softwares + Python Scripts. I have completed my Bachelor in Computer Science and Technology from Gujarat Technological University, Gujarat.",
 				"I love to Travel+Code+Music.",
 			],
 		},
 		contact: {
 			text: [
-				"If you would like to get in touch with me, be it for exploring a technology, a business, or to just say hi, feel free to send me an email at KaushikSutariya01@gmail.com",
+				"If you would like to get in touch with me, be it for exploring a technology, a business, or to just say hi, feel free to send me an email at PragneshSutariya01@gmail.com",
 			],
 		},
 	},
@@ -82,7 +82,7 @@ export default {
 				image: "images/pERP.png",
 				summary:
 					"Developed a full stack ERP application to provide management of student's data with admin interface.",
-				preview: "https://github.com/KaushikSutariya/ERP-Student",
+				preview: "https://github.com/PragneshSutariya/ERP-Student",
 				techStack: ["JavaScript","CSS","PHP","MySQL"],
 			},
 			{
@@ -96,21 +96,13 @@ export default {
 		],
 		software: [
 			{
-				projectName: "Diamond Inventory System",
+				projectName: "Diamond Inventory System (DiamondMFG)",
 				image: "images/PdiamonInvSys.png",
 				summary:
 					"It is a vast inventory and Diamond manufacturing process tracking system. It's a complete ERP package for Diamond manufacturing companies. DIS has been developed to incorporate all possibilities and permutations, combinations to address all needs of diamond manufacturing companies. DIS deals with all the requirement of Diamond Industries in managing very complex Diamond Manufacturing process.",
 				preview:
 					"",
 				techStack: ["c#", "SQL Server",".Net Framework","Infragistics","SAP Crystal Reports"],
-			},
-			{
-				projectName: "Face Recognisation Based Attendance System",
-				image: "images/PFaceRecAttSys.png",
-				summary:
-					"Standalone PC software to mark attendance of multiple employees at a time. There is no need to stand in front of the camera and no physical involvement. Included a website and android app to manage data.	",
-				preview: "",
-				techStack: ["Python", "OpenCV", "TKinter","PAGE","MySQL","XAMPP","NumPy","Pandas","PIL"],
 			},
 			{
 				projectName: "Textile Inventory System",
@@ -120,65 +112,9 @@ export default {
 				preview: "",
 				techStack: ["c#", "SQL Server",".Net Framework","Infragistics","SAP Crystal Reports"],
 			},
-			{
-				projectName: "Task Control",
-				image: "images/PTaskControl.jpg",
-				summary:
-					"Software to store and manage work task assign by manager to the employees in a company. It gives reminder of work and make tracking of employee's work.",
-				preview: "",
-				techStack: ["c#", "SQL Server",".Net Framework","Infragistics","SAP Crystal Reports"],
-			},
-			{
-				projectName: "Payroll System",
-				image: "images/pPayRollSys.jpg",
-				summary:
-					"Complete payroll software with support of biometric device. Secure, scalable and maintenance-free. Make your employees smile with timely, accurate paychecks.",
-				preview: "",
-				techStack: ["c#", "SQL Server",".Net Framework","Infragistics","SAP Crystal Reports"],
-			},
-			{
-				projectName: "QR Generator, WhatsApp messages and Email sender",
-				image: "images/pQrGenerator.jpg",
-				summary:
-					"Automatic softwar that runs with computer startups in system tray. It creates QR code of .txt file and send emails or whatsapp messages",
-				preview: "",
-				techStack: ["c#",".Net Framework"],
-			},
+			
 		],
-		android: [
-			{
-				projectName: "BMI-App",
-				image: "images/pBMI.jpg",
-				summary:
-					"The Application generates BMI reports by taking few detais of a person.",
-				preview: "",
-				techStack: ["Flutter","Dart", "Android Studio"],
-			},
-			{
-				projectName: "English Words",
-				image: "images/pEngWords.jpg",
-				summary:
-					"A learning Application that displays a list of english words in two languages: English and Gujarati.",
-				preview: "",
-				techStack: ["Flutter","Dart", "Android Studio","Google Translator"],
-			},
-			{
-				projectName: "WorkFlow",
-				image: "images/pWorkFlow.jpg",
-				summary:
-					"Employee management system application that we ever used to manage our team, It's very easy to use. Its interconnected processes will help you increase efficiency, foster collaboration, and macro-monitor performance. This app is one-stop solution for managing your entire business. This app manages the all task of all the current employees of the company.",
-				preview: "",
-				techStack: ["Flutter","Dart", "Android Studio","REST API","Firebase"],
-			},
-			{
-				projectName: "ETEX",
-				image: "images/pETEX.jpg",
-				summary:
-					"This app manage all bills in Textile Industry, Send WhatsApp messages and emails to the customers.",
-				preview: "",
-				techStack: ["Flutter","Dart", "Android Studio","REST API","Firebase"],
-			},
-		],
+		
 		freelance: [
 			// {
 			// 	projectName: "SnylloAir.com",
@@ -201,24 +137,24 @@ export default {
 	},
 	experience: [
 		{
-			title: "UpWork-Freelancer",
+			title: "Freelancer",
 			duration: "December 2021 - Present",
 			subtitle: "Flutter Developer",
 			details: [
-				"Worked as a Flutter developer to make client base Android App.",
-				"Developed a customer Mobile Application from scratch for Employee Task Management and build ETEX App, which is used in Textile business.",
+				"Worked as a Desktop developer to make client base customize software.",
+				"Software to store and manage, calculate, and share textile information and generate bills. It gives prediction and full analysis of a data.",
 			],
 			tags: [
-				"Flutter",
+				"Infragistics",
 				"C#",
-				"Python",
-				"Multiple Programming languages",
+				"Crystal Report",
+				"XML",
 				
 			],
 			icon: "group",
 		},
 		{
-			title: "Silver Technologies",
+			title: "MR Diamond",
 			duration: "January 2020 - June 2021",
 			subtitle: "Software Engineer",
 			details: [
@@ -234,22 +170,11 @@ export default {
 				"Github",
 			],
 			icon: "group",
-		},
-		{
-			title: "Bitwise Infotech",
-			duration: "September 2019 - October 2019",
-			subtitle: "Intern",
-			details: [
-				"Worked on web project and Solved various DS queries.",
-				"Integrated QR Code and reduced the effective time by 50 percent.",
-			],
-			tags: ["Python","C/C++", "MySQL", "TkInter", "OpenCV", "NumPy"],
-			icon: "group",
-		},
+		},		
 	],
 	education: [
 		{
-			title: "Bachelors in Computer Engineering",
+			title: "Diploma in Computer Application",
 			duration: "2017-2021",
 			subtitle: "Gujarat Technological University",
 			details: [
@@ -259,22 +184,11 @@ export default {
 				"Data Structures & Algorithms",
 				"Operating Systems",
 				"Database Management System",
-				"Python Programming",
-				"Machine Learning",
+				
 			],
 			icon: "graduation-cap",
 		},
-		{
-			title: "Class 11-12th in Science and Mathematics",
-			duration: "2015-2017",
-			subtitle: "Gujarat Secondary and Higher Secondary Education Board",
-			details: [
-				"Qualified JEE Main",
-				"Secured 84% in Class 12th Boards Examinations.",
-			],
-			tags: ["Physics", "Chemistry", "Mathematics"],
-			icon: "book",
-		},
+		
 	],
 	footer: [
 		{
@@ -286,7 +200,7 @@ export default {
 				// },
 				{
 					text: "GitHub",
-					link: "https://github.com/KaushikSutariya",
+					link: "https://github.com/pragnesh97",
 				},
 				// {
 				// 	text: "LeetCode",
@@ -313,22 +227,22 @@ export default {
 			data: [
 				{
 					text: "Linkedin",
-					link: "https://www.linkedin.com/in/kaushik-sutariya/",
+					link: "www.linkedin.com/in/pragnesh-sutariya-a835b317b",
 				},
-				{
-					text: "Instagram",
-					link: "https://www.instagram.com/kaushik_sutariya_official/?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D",
-				},
+				// {
+					// text: "Instagram",
+					// link: "https://www.instagram.com/Pragnesh_sutariya_official/?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D",
+				// },
 				{
 					text: "Buy me a coffee",
-					link: "https://www.buymeacoffee.com/KaushikSutariya",
+					link: "https://www.buymeacoffee.com/PragneshSutariya",
 				},
 			],
 		},
 		{
 			label: "copyright-text",
 			data: [
-				"Made with &hearts; by Kaushik Sutariya.",
+				"Made with &hearts; by Pragnesh Sutariya.",
 				"&copy; No Copyrights. Feel free to use this template."
 			],
 		},
